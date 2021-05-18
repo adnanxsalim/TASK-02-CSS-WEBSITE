@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+.fullwidth{
+    background-color: #ffa300;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    border-radius: 25px;
+    padding: 50px;
+}
+img{
+    height: 60px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+form input{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    font: inherit;
+}
+.formelement{
+    margin: 20px;
+}
+a{
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-style:dotted;
+    text-decoration-color: red;
+}
+.checkbox{
+    margin: 20px;
+}
+button{
+    background-color: #ffa300;
+    color: black;
+    font: inherit;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+span{
+    float: right;
+    margin-left: 90px;
+    font-family: 'Times New Roman';
+}
+form label{
+    margin-right: 10px;
+}
